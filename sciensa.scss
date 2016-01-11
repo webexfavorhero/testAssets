@@ -8,6 +8,7 @@
 @import "bootstrap";
 @import "font-awesome";
 @import "owl.carousel";
+@import "video-js";
 
 /* Helpers */
 @import "helpers/variables";
@@ -1470,6 +1471,16 @@ form .field-box {
   width: 20%;
   padding: 0 10px;
 }
+.list-experience.services-user-experience li {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+}
+.list-experience.products-user-experience li {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+}
 .list-experience li figure {
   text-align: center;
 }
@@ -1677,6 +1688,9 @@ form .field-box {
   z-index: 22;
   padding: 20px 0;
 }
+.header-lightbox.modal-header-lightbox {
+  position: relative;
+}
 .header-lightbox .container {
   position: relative;
 }
@@ -1720,6 +1734,16 @@ form .field-box {
   background-image: url("images/banner-section/1.jpg");
   padding: 15% 0;
 }
+
+.content-banner-lightbox.custom-content-banner-lightbox {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* background-image: url("images/banner-section/1.jpg"); */
+  padding: 15% 0;
+}
+
 .content-banner-lightbox .container {
   position: relative;
 }
@@ -2779,4 +2803,22 @@ form .field-box {
   100% {
     opacity: 1;
   }
+}
+.video-js.custom-video-js {
+  width: 99.9%;
+  height: 400px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.lazy-image {
+  position: absolute;               /* 2 */
+  top: 50%;                         /* 3 */
+  left: 45.5%;
+  transform: translate(0, -50%);
+}
+
+.lazy-image-size {
+  width: 100px;
+  height: 100px;
 }
